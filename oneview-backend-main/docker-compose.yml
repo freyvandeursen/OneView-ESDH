@@ -1,0 +1,17 @@
+services:
+  oneview-db:
+    image: ghcr.io/nilshilmarn/oneview-db:latest
+    platform: linux/amd64
+    container_name: oneview-db
+    ports:
+      - "1433:1433"
+  oneview-redis:
+    image: redis:latest
+    container_name: oneview-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - vitani_network
+networks:
+  vitani_network:
+    name: vitani_network

@@ -1,0 +1,30 @@
+services:
+  oneview-db:
+    image: ghcr.io/nilshilmarn/oneview-db:latest
+    container_name: oneview-db
+    networks:
+      - vitani_network
+    ports:
+      - "1433:1433"
+  oneview-backend:
+    image: ghcr.io/nilshilmarn/oneview-backend:latest
+    container_name: oneview-backend
+    platform: linux/amd64
+    ports:
+      - "8080:8080"
+    depends_on:
+      - oneview-db
+    networks:
+      - vitani_network
+
+  oneview-redis:
+    image: redis:latest
+    container_name: oneview-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - vitani_network
+
+networks:
+  vitani_network:
+    name: vitani_network

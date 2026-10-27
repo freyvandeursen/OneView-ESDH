@@ -1,0 +1,36 @@
+.local/
+.pnpm-store/
+
+# Original duplicate snapshots and private business documents.
+/oneview-backend-main/oneview-backend-main/
+/oneview-frontend-main/oneview-frontend-main/
+**/Vitani-Fileserver/
+
+# Historical company deployment automation is not part of this public snapshot.
+/oneview-backend-main/.github/
+/oneview-frontend-main/.github/
+
+# Generated dependencies, build output, editor state, and private local files.
+**/node_modules/
+**/bin/
+**/obj/
+**/dist/
+**/TestResults/
+**/.vs/
+**/.idea/
+**/.vscode/
+*.log
+*.user
+*.suo
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.pfx
+*.p12
+*.pem
+*.key
+*.tar
+.env
+.env.*
+!.env.example

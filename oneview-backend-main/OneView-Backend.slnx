@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="BusinessLogic/BusinessLogic.csproj" Id="d1dc4edf-192d-48b2-9fb9-85d05e82c9c3" />
+  <Project Path="DataAccess/DataAccess.csproj" Id="4f288273-b813-4107-9874-1a55839f0793" />
+  <Project Path="DTO/DTO.csproj" Id="11429449-6497-4427-8a62-7be02e1b7ad7" />
+  <Project Path="OneView-API/OneView-API.csproj" Id="f1ba81e3-8c55-4981-81a9-fb57f79bd8ec" />
+  <Project Path="Test/Test.csproj" Id="98931283-29a3-470f-bfbc-113526859692" />
+  <Project Path="Test_Unit/Test_Unit.csproj" Id="6c40838e-7d7f-4a40-adf2-9f26d26e533d" />
+</Solution>

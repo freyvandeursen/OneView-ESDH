@@ -1,0 +1,10 @@
+.github
+.idea
+Test
+.dockerignore
+.gitignore
+docker-compose
+Dockerfile
+README.md
+.env
+vitani-fileserver

@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Utility\" />
+    <Folder Include="File\" />
+    <Folder Include="Freshdesk\" />
+    <Folder Include="KeeperSecurity\" />
+    <Folder Include="Shared\" />
+    <Folder Include="User\" />
+  </ItemGroup>
+
+</Project>
