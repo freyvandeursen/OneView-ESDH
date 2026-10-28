@@ -1,8 +1,11 @@
 # OneView - ESDH
 
-*ESDH Prototype · Customer & Document Management*
+*Customer & Document Management*
 
-OneView brings customer records, contact information, labels, and related documents together in a unified workspace. It is an ESDH-inspired prototype: **ESDH** stands for *Elektronisk Sags- og Dokumenthåndtering* (Electronic Case and Document Management).
+OneView brings customer records, contact information, labels, and related documents together in a unified workspace.
+<img width="703" height="416" alt="Skærmbillede 2026-10-27 142031" src="https://github.com/user-attachments/assets/79d7838e-15fb-487f-8b6a-93ae17826da5" />
+
+<img width="942" height="458" alt="Skærmbillede 2026-10-27 142422" src="https://github.com/user-attachments/assets/a5e942ab-9bfb-484b-b58e-6738937d38ae" />
 
 **OneView is a group project developed by a team of six people in collaboration with Vitani.** This repository presents the shared project and documents how to run it locally. The work is credited to the group as a whole.
 
@@ -17,8 +20,6 @@ OneView is a React customer-management frontend backed by an ASP.NET Core API, S
 | Organization | Labels and contextual information attached to customers and documents |
 | Document access | S3-backed document discovery, metadata, and signed download links |
 | Authentication | JWT-based login with user and administrator roles |
-
-The current implementation focuses on customer management and document access. Structured case processing is not yet implemented. The ESDH label describes the prototype's direction and context.
 
 ## Local service addresses
 
@@ -39,6 +40,9 @@ Local demo logins:
 | --- | --- | --- |
 | `admin` | `adminpass` | `ADMIN` |
 | `user` | `pass` | `USER` |
+
+<img width="248" height="266" alt="Skærmbillede 2026-10-27 141827" src="https://github.com/user-attachments/assets/552efb3f-2546-49ab-a45f-7ee52f2cace1" />
+
 
 These are sample accounts seeded by the SQL script, not external authentication-provider accounts. The existing login implementation stores passwords in plain text; use this setup for local development only.
 
